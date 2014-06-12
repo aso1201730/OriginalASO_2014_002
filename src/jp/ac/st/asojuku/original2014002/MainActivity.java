@@ -40,7 +40,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 		case R.id.btn_ck:
 			String strHitokoto = helper.selectRandomHitokoto(sdb);
-
+			System.out.println(strHitokoto);
 			intent = new Intent(MainActivity.this, HitokotoActivity.class);
 			intent.putExtra("hitokoto", strHitokoto);
 

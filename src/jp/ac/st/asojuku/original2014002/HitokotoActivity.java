@@ -1,11 +1,13 @@
 package jp.ac.st.asojuku.original2014002;
 
 import jp.ac.st.asojukuoriginal2014002.R;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class HitokotoActivity extends MainActivity {
+
+public class HitokotoActivity extends Activity {
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -15,10 +17,10 @@ public class HitokotoActivity extends MainActivity {
 	}
 
 	@Override
-	protected void onResume() {
+	protected void onResume(){
 		// TODO 自動生成されたメソッド・スタブ
 		super.onResume();
-
+		System.out.println("**************");
 		Intent intent = this.getIntent();
 		String strHitokoto = intent.getStringExtra("hitokoto");
 		TextView txvHITOKOTO = (TextView)findViewById(R.id.txt1);
