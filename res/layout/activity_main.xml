@@ -36,13 +36,13 @@
         android:layout_toRightOf="@+id/linearLayout1" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/btn_back"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="メンテ" />
 
         <Button
-            android:id="@+id/btn_add"
+            android:id="@+id/btn_dl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="登録" />

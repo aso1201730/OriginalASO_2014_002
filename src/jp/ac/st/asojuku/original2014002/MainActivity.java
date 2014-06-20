@@ -25,7 +25,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
 		switch(v.getId()){
 
-		case R.id.btn_add:
+		case R.id.btn_dl:
 
 			if(inputMsg!=null && !inputMsg.isEmpty()){
 				helper.insertHitokoto(sdb, inputMsg);
@@ -33,7 +33,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 			etv.setText("");
 			break;
 
-		case R.id.button1:
+		case R.id.btn_back:
 			intent = new Intent(MainActivity.this, MaintenanceActivity.class);
 			startActivity(intent);
 			break;
@@ -62,9 +62,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		Button btn = (Button)findViewById(R.id.btn_add);
+		Button btn = (Button)findViewById(R.id.btn_dl);
 		Button btn1 = (Button)findViewById(R.id.btn_ck);
-		Button btn2 = (Button)findViewById(R.id.button1);
+		Button btn2 = (Button)findViewById(R.id.btn_back);
 		btn.setOnClickListener(this);
 		btn1.setOnClickListener(this);
 		btn2.setOnClickListener(this);
@@ -75,11 +75,10 @@ public class MainActivity extends Activity implements View.OnClickListener {
 		// TODO 自動生成されたメソッド・スタブ
 		super.onResume();
 
-		Button btnENTRY = (Button)findViewById(R.id.btn_add);
+		Button btnENTRY = (Button)findViewById(R.id.btn_dl);
 		btnENTRY.setOnClickListener(this);
 
-		Button btnMAINTE = (Button)findViewById(R.id.button1);
-		btnENTRY.setOnClickListener(this);
+		Button btnMAINTE = (Button)findViewById(R.id.btn_back);
 
 		Button btnCHECK = (Button)findViewById(R.id.btn_ck);
 		btnENTRY.setOnClickListener(this);

@@ -251,9 +251,9 @@ int id action_settings 0x7f050046
 int id activity_chooser_view_content 0x7f050025
 int id always 0x7f05000b
 int id beginning 0x7f050011
-int id btn_add 0x7f050042
+int id btn_back 0x7f050041
 int id btn_ck 0x7f050043
-int id button1 0x7f050041
+int id btn_dl 0x7f050042
 int id checkbox 0x7f05002d
 int id collapseActionView 0x7f05000d
 int id default_activity_button 0x7f050028
@@ -274,7 +274,7 @@ int id imageView1 0x7f050044
 int id linearLayout1 0x7f05003c
 int id linearLayout2 0x7f05003f
 int id listMode 0x7f050001
-int id listView1 0x7f050045
+int id list_hitokoto 0x7f050045
 int id list_item 0x7f050029
 int id middle 0x7f050012
 int id never 0x7f050009

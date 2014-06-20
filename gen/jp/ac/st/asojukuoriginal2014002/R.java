@@ -1095,9 +1095,9 @@ containing a value of this type.
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
-        public static final int btn_add=0x7f050042;
+        public static final int btn_back=0x7f050041;
         public static final int btn_ck=0x7f050043;
-        public static final int button1=0x7f050041;
+        public static final int btn_dl=0x7f050042;
         public static final int checkbox=0x7f05002d;
         public static final int collapseActionView=0x7f05000d;
         public static final int default_activity_button=0x7f050028;
@@ -1118,7 +1118,7 @@ containing a value of this type.
         public static final int linearLayout1=0x7f05003c;
         public static final int linearLayout2=0x7f05003f;
         public static final int listMode=0x7f050001;
-        public static final int listView1=0x7f050045;
+        public static final int list_hitokoto=0x7f050045;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;
         public static final int never=0x7f050009;
