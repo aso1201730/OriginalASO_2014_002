@@ -36,7 +36,7 @@
         android:layout_toRightOf="@+id/linearLayout1" >
 
         <Button
-            android:id="@+id/btn_back"
+            android:id="@+id/btn_mente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="メンテ" />
